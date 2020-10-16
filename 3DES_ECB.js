@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         3DES_ECB
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.2
 // @description  try to take over the world!
 // @author       José Durán
 // @match        https://htmlpreview.github.io/?https://github.com/PepsUDP/Tarea3Cripto/blob/main/3DES_ECB.html
@@ -51,6 +51,7 @@ function hex2a(hex) {
     console.log("EncriptadoTest:",testencrypt);
     console.log("DesencriptadoTest:",testdecrypt);
     console.log("DesencriptadoTestASCII:",decryptA);
+    //Test
 })();
 
 //CryptoJS.enc.Base64.parse
