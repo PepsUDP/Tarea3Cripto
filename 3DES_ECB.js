@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         3DES_ECB
 // @namespace    https://github.com/PepsUDP/Tarea3Cripto/blob/main/3DES_ECB.js
-// @version      2.1
+// @version      2.2
 // @description  Probando github pages
 // @author       José Durán
 // @downloadURL  https://github.com/PepsUDP/Tarea3Cripto/blob/main/3DES_ECB.js
@@ -21,6 +21,10 @@ function hex2a(hex) {
 
 (function() {
     'use strict';
+    //Al igual que en la aplicación de 3DES modo ECB en python, las únicas variables a utilizar en el cifrado y descifrado
+    //de esta tarea serán los datos a manipular y el modo, pero al ser este último constante y el mensaje depende de lo que
+    //se pase a través de python no existen variables modificables (obligatorias) para el funcionamiento de este cifrado.
+
     //Se agarra el mensaje cifrado, se convierte a arreglo para que sea manejable por CryptoJS, se obtiene el padding,
     //y por último la llave para luego pasarla a base64, nuevamente para mejor manejo por parte de CryptoJS
     var encrypted = document.getElementsByClassName("3DES")["0"].getAttribute("id");
