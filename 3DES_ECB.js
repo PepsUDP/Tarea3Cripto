@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         3DES_ECB
 // @namespace    https://github.com/PepsUDP/Tarea3Cripto/blob/main/3DES_ECB.js
-// @version      2.2
+// @version      2.3
 // @description  Probando github pages
 // @author       José Durán
 // @downloadURL  https://github.com/PepsUDP/Tarea3Cripto/blob/main/3DES_ECB.js
