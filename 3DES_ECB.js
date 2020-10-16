@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         3DES_ECB
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/PepsUDP/Tarea3Cripto/blob/main/3DES_ECB.js
 // @version      1.2
 // @description  try to take over the world!
 // @author       José Durán
+// @updateURL    https://github.com/PepsUDP/Tarea3Cripto/blob/main/3DES_ECB.js
 // @match        https://htmlpreview.github.io/?https://github.com/PepsUDP/Tarea3Cripto/blob/main/3DES_ECB.html
 // @require      https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/tripledes.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/core-min.js
