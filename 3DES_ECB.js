@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         3DES_ECB
 // @namespace    https://github.com/PepsUDP/Tarea3Cripto/blob/main/3DES_ECB.js
-// @version      1.3
+// @version      2.0
 // @description  try to take over the world!
 // @author       José Durán
 // @updateURL    https://github.com/PepsUDP/Tarea3Cripto/blob/main/3DES_ECB.js
@@ -52,7 +52,6 @@ function hex2a(hex) {
     console.log("EncriptadoTest:",testencrypt);
     console.log("DesencriptadoTest:",testdecrypt);
     console.log("DesencriptadoTestASCII:",decryptA);
-    //TestTest
 })();
 
 //CryptoJS.enc.Base64.parse
